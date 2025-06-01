@@ -71,6 +71,7 @@ const ChatContainer = ({ selectedUser, setSelectedUser }) => {
         ))}
         <div ref={scrollEnd}></div>
       </div>
+      
       {/* Bottom Area */}
       <div className="absolute bottom-0 left-0 right-0 flex iutems-center gap-3 p-3">
         <div className="flex-1 flex items-center bg-gray-100/12 px-3 rounded-full">
@@ -89,7 +90,7 @@ const ChatContainer = ({ selectedUser, setSelectedUser }) => {
             />
           </label>
         </div>
-        <img src={assets.send_button} className="w-07 cursor-pointer" alt="" />
+        <img src={assets.send_button} className="w-7 cursor-pointer" alt="" />
       </div>
     </div>
   ) : (
