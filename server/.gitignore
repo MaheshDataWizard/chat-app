@@ -1,0 +1,54 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Debugger files
+.vscode/
+.idea/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Build directories
+dist/
+build/
+
+# TypeScript output (if using TypeScript)
+*.tsbuildinfo
+
+# Binaries or other generated files
+*.tgz
+
+# Local environment config
+*.local
+
+# PM2 logs
+pids
+*.log
+logs
+
+# Swagger generated files (if applicable)
+swagger-output.json
